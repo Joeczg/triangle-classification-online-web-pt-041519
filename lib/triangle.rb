@@ -31,6 +31,6 @@ end
 
   class TriangleError < StandardError
     def message
-      puts "This is a valid triangle the sum of two sides must greater than third side."
+      puts "This is a valid triangle"
     end
 end
