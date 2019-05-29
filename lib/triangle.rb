@@ -29,11 +29,8 @@ class Triangle
   def kosher_triangle2 
     x + y > z && x + z > y && y + z > x
   end 
-end
 
 class TriangleError < StandardError
   
 end
-
-a = Triangle.new(5, 2, 3)
-a.kind
+end
